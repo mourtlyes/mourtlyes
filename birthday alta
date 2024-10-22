@@ -1,0 +1,23 @@
+def birthday_message(request):
+    message = (
+        "Good morning, babe. Happy birthday! 🥳🥳<br>"
+        "Wish you all the best! Semoga di 'level up' hari ini, "
+        "kamu bisa menjadi versi terbaik dari dirimu, seperti matahari "
+        "yang selalu bersinar lebih terang setelah gelapnya malam, okay? "
+        "Semoga apa yang kamu harapkan, entah itu bagian dari mimpimu, "
+        "segera terwujud. Dan ya, semoga kamu diberi kebahagiaan "
+        "yang lebih dari kesedihan yang telah berlalu. Ingat, ya, bang, "
+        "selalu apresiasi setiap ada kemajuan sekecil apa pun di dalam diri kamu. "
+        "Jangan berpikir negatif tentang diri kamu, usahakan untuk berpikir positif saja. "
+        "Jangan lupa juga untuk berterima kasih pada diri kamu sendiri karena sudah bisa "
+        "sampai di titik ini. Oh iya, semoga kamu diberi panjang umur dan sehat selalu "
+        "biar bisa terus sama aku, xixixi.<br><br>"
+        "Eh, makasih juga, ya, sudah mau mendengarkan keluh kesahku selama ini? "
+        "Aku selalu excited banget buat ceritain keluh kesahku ke kamu. Semoga aja "
+        "kita nggak asing, ya, please?!<br>"
+        "By the way, jangan lupa juga untuk terus berbakti sama ortu, ya, karena "
+        "doa mereka itu seperti bensin super buat perjalanan hidupmu. Semakin kamu "
+        "berbakti, hidupmu bakal semakin lancar.<br><br>"
+        "Sekali lagi, happy birthday! 🤸🏻‍♀🤸🏻‍♀"
+    )
+    return render(request, 'birthday/message.html', {'message': message})
